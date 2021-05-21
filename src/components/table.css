@@ -1,5 +1,5 @@
 .container {
-    font-family: Rye;
+    font-family: ui-monospace;
     margin-top:15%;
 
 }
@@ -30,4 +30,21 @@ table{
 
 .ant-table-pagination.ant-pagination {
     opacity:0;
+}
+@media (min-width: 768px){
+.container, .container-md, .container-sm {
+    max-width: 720px;
+}  
+}
+@media (min-width: 576px){
+.container, .container-sm {
+    max-width: 540px;
+}
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
